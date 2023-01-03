@@ -1,0 +1,166 @@
+:root{
+    
+}
+html{
+    padding: 0;
+    margin: 0;
+    position: relative;
+    font-family: fantasy;
+}
+.imgContainer{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    height: 100vh;
+    width: 40vw;
+    background-image: url('/img/rivermedium.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    height: 100vh;
+    width: 40vw;
+}
+header{
+    height: 30vh;
+    position: absolute;
+    left: 40vw;
+    width: 60vw;
+    background-color: rgba(42, 107, 4, 0.4);
+    top: 0px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+p{
+    max-width: 70ch;
+    min-width: 40ch;
+}
+#hero{
+    font-size: larger;
+    font-weight: 700;
+    font-style: italic;
+}
+#subhero{
+    font-size: medium;
+    font-weight: 500;
+    font-style: italic;
+}
+
+form{
+width: 60vw;
+height: 70vh;
+position: absolute;
+left: 40vw;
+display: flex;
+flex-direction: column;
+padding-left: 6rem;
+top: 30vh;
+background-color: rgb(77, 105, 105);
+}
+
+h3{
+    margin-top: 100px;
+}
+
+.inputArea{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+    border: 2px solid rgba(128, 128, 128,0.1);
+    width: 70%;
+    border-radius: 10px;
+    background-color: rgba(255, 235, 205,0.2);
+    margin-bottom: 80px;
+    margin-top: 100px;
+    padding: 3rem;
+    flex-flow: column wrap;
+    height: 20%;
+    box-shadow: 5px 3px 5px 0px rgba(1,2,3,0.4);
+}
+
+input{
+    box-shadow: 1px 1px 4px 1px rgba(1,2,3,0.4);
+    border: none;
+}
+
+.inputcol{
+display: flex;
+flex-flow: column wrap;
+}
+
+input:valid{
+    box-shadow:  1px 1px 6px 1px rgba(13, 218, 64, 0.4);
+    border: 1px solid rgba(16, 212, 32,0.3);
+}
+
+
+input:focus{
+    box-shadow: 1px 1px 6px 5px rgba(22, 54, 87, 0.4);
+    outline: none;
+}
+
+#submitcontainer{
+    position: absolute;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    bottom: 20vh;
+    height: 10vh;
+    width: 20vw;
+}
+
+button{
+    background-color: rgba(42, 107, 4, 0.4);
+    padding: 1.5rem 2rem;
+    border-radius: 15%;
+    border: 1px solid rgba(40,80,30,0.6);
+    box-shadow: 4px 5px 2px 1px rgba(65, 66, 65, 0.1);
+}
+button:hover{
+    box-shadow: 4px 5px 2px 1px rgba(65, 66, 65, 0.4);
+    border: 2px solid rgba(40,80,30,0.8);
+    background-color: rgba(65, 66, 65, 0.4);
+}
+.imgCredit{
+    text-align: center;
+    color: ivory;
+    
+}
+.creditTxt{
+    position: absolute;
+    bottom: 3%;
+    text-align: center;
+}
+
+a{
+    color: ivory;
+}
+.logoContainer{
+    background-color:rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 38%;
+    width:40vw;
+    height: 10vh;
+    text-align: center;
+}
+#axe{
+    height: 5rem;
+    width: 2.5rem;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+
+}
+#logoTxt{
+    font-size: 1.5rem;
+    color: antiquewhite;
+}

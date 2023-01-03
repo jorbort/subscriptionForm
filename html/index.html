@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="imgContainer">
+        
+        <div class="logoContainer">
+            <img id="axe" src="/img/1295491.svg" alt="logo-axe">
+            <p id="logoTxt">Lumberjack Project</p>
+        </div>
+        <div class="creditTxt">
+            <p class="imgCredit">Photo Jhon Salvino <a href="https://unsplash.com/photos/9YubwxAIpw0">unsplash</a></p>
+        </div>
+        
+    </div>
+    <header class="explication">
+        <p id="hero">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto </p>
+        <p id="subhero">You Know you need it !!</p>
+    </header>
+    <form action="" method="post">
+        <h3>Let's get you started!!</h3>
+        <div class="inputArea">
+            <div class="inputcol">
+                <label for="firstName">First Name </label>
+                <input type="text" name="firstName" required id="">
+            </div>
+            <div class="inputcol">
+                <label for="mail">Email </label>
+                <input type="email" name="mail" required id="">
+            </div>
+            <div class="inputcol">
+                <label for="pass">Password</label>
+                <input type="password" name="pass" pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$" required placeholder="min 8 characters one number one letter required minlength="8" id="">
+            </div>
+            <div class="inputcol">
+                <label for="lastName">Last Name </label>
+                <input type="text" name="lastName" required id="">
+            </div>
+            <div class="inputcol">    
+                <label for="phone">Phone Number </label>
+                <input type="tel" name="phone" required id="">
+            </div>
+            <div class="inputcol">    
+                <label for="repass">Re-input Password</label>
+                <input type="password" name="repass" pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$" required minlength="8" placeholder="min 8 characters one number one letter" id="">
+            </div>    
+        </div>
+        <div id="submitContainer">
+            <button type="submit" class="submitBtn">Create Account</button>
+            <p>Already have an account? <a href="">Log in</a></p>
+        </div>
+    </form>
+    <script src="/js/app.js"></script>
+</body>
+</html>
